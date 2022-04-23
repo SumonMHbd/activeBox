@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* header section start */
+.navbar-toggler {
+    background: rgb(201, 0, 0);
+    border-radius: 50%;
+    color: #fff;
+}
+.header {
+    background: url("../img/banner.jpg");
+    background-size: cover;
+}
+.header nav.navbar {
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+.header .navbar .nav-link {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.banner-content p {
+    font-size: 22px;
+    color: white;
+}
+.header .banner-content a {
+    background: rgb(255, 52, 52);
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 35px;
+    transition: .5s;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+}
+.header .banner-content a:hover {
+    background: rgb(216, 0, 0);
+}
+/* header section end */
+/* feature section start */
+#feature .feature-inner {
+    margin-bottom: 10px;
+}
+#feature .feature-inner .fa {
+    font-size: 70px;
+    color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#feature .feature-inner h5, p {
+    font-size: 14px;
+}
+/* feature section end */
+/* work section start */
+#work .row div {
+    padding: 0px;
+    margin: 0px;
+}
+#work .work-inner img {
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    border: 1px solid #fff;
+}
+#work .work-inner:hover img {
+    transform: scale(1.3);
+}
+#work .work-inner a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+#work .work-inner .work-content {
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 37, 37, 0.7);
+    transition: .5s;
+}
+#work .work-inner .work-content h5 {
+    margin-top: 20%;
+}
+#work .work-inner:hover .work-content {
+    top: 0%;
+}
+/* work section end */
+/* team section start */
+.team-social-icon ul li {
+    list-style: none;
+    margin: 0px 5px;
+}
+.team-social-icon ul li i {
+    color: rgb(167, 167, 167);
+    padding: 7px 10px;
+    transition: .5s;
+    border: 1px solid rgb(223, 223, 223);
+}
+.team-social-icon ul li a:hover i {
+    background: red;
+    color: #fff;
+}
+/* team section end */
+/* testimonial section start */
+#testimonial {
+    background: #53354a;
+}
+/* testimonial section end */
+/* download section start */
+#download .download-content a {
+    background: rgb(255, 52, 52);
+    color: #fff;
+    padding: 10px 30px;
+    transition: .5s;
+    text-decoration: none;
+    border: none;
+}
+#download .download-content a:hover {
+    background: rgb(216, 0, 0);
+}
+/* download section end */
+/* top footer section start */
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 22px;
+    font-size: 14px;
+}
+footer .footer-top {
+    background: #3a3e64;
+}
+.footer-link ul li {
+	list-style: none;
+}
+.footer-link ul li a {
+	color: rgb(194, 194, 194);
+	display: inline-block;
+	margin-bottom: 7px;
+	text-decoration: none;
+}
+.footer-link ul li a:hover {
+	color: red;
+}
+footer .footer-bottom {
+    background: #313454;
+}
+footer .footer-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-bottom a span {
+    color: rgb(225, 225, 225);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 50%;
+    padding: 6px 8px;
+}
+footer .footer-bottom a span:hover {
+	background: red;
+}
+/* top footer section end */
